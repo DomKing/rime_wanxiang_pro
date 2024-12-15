@@ -1,0 +1,17 @@
+---
+name: wubi86_jidian_user
+note: "个人词存放位置"
+version: "2022-10-20"
+last_edit_time: "2022-10-21"
+
+sort: by_weight
+# 码表的排序方式
+  # by_weight 权重
+  # original 原始顺序
+
+#use_preset_vocabulary: true # 是否引入【八股文】的词频词序
+...
+李四	sblh
+张三	xtdg
+王二	ggfg
+手机端	rsum

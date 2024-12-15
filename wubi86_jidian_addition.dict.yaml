@@ -1,0 +1,105 @@
+---
+name: wubi86_jidian_extra_addition
+note: "使用 《码表助手》 添加的用户词存放位置"
+version: "2020-04-16"
+last_edit_time: "2020-04-16"
+
+sort: original
+# 码表的排序方式: by_weight 权重，original 原始顺序
+
+# 码长内容格式：字词 键码  权重 （中间是tab，不是空格）
+# 注释只能另起一行写，不能在词条后面写
+
+...
+
+试一下	yggh	2
+建表	vfge
+工作	aaw
+翠岭银河	clyh
+翠岭银河A区8-1-101	addr
+江苏省南京市雨花台区翠岭银河A区8-1-101	addr
+19925369202	cell
+34122219911002955X	sfz
+零零散散	ffaa
+都	ft
+都是	ftjg	2
+时间	jfu
+金科	qqt	2
+金科	qqtu	2
+可以	skn
+告警	tfaq	2
+合规	wgfw
+刘青青	ygge
+康夺	yvdf	2
+浦口	igkk	2
+本群	sgvt	2
+看下	rhgh	2
+绝了	xqbn	2
+结项	xfad	2
+摇号	rekg	2
+颠沛流离	fiiy	2
+神器	pykk	2
+举例	iwwg	2
+U盘	uute	1
+租户	teyn	2
+总览	ukjt	2
+操作	rkw	2
+加钱	lkqg	2
+迭代	rwwa	2
+学弟	ipux	2
+装逼	ufgk	2
+牙疼	ahut	2
+作践	wtkh	2
+看淡	rhio	1
+比亚迪	xgmp	2
+办公会	lwwf	2
+好家伙	vpwo	2
+游走	iyfh	2
+行的通	trce	2
+首付	utwf	1
+高点	ymhk	2
+雨花	fgaw	2
+雨花台	fack	2
+雨花台区	facq	2
+房产证	yuyg	2
+啥都	kwft	2
+接盘	rute	2
+接盘侠	rtwu	2
+真不错	fgqa	2
+红头	xaud	2
+简道	tuuh	2
+京喜	yifk	2
+块钱	fnqg	2
+咋回事	klgk	2
+怎么回事	ttlg	2
+半小时	uijf	2
+内网	mwmq	2
+索伦	fpww	2
+抓包	rrqn	2
+等会	tfwf	2
+筛查	tjsj	1
+产检	utsw	2
+摸鱼	raqg	1
+中间件	kuwr	1
+午觉	tfip	2
+版块	thfn	2
+房贷	ynwa	2
+用例	etwg	2
+磨叽	yskm	2
+丢人	tfww	2
+坑爹	fywq	2
+挂载	rffa	2
+封版	ffth	2
+呼噜	ktkq	2
+猪蹄	qtkh	2
+涉密	ihpn	2
+蛋挞	nhrd	2
+赋能	mgce	2
+毕马威	xcdg	2
+研报	dgrb	2
+公有云	wdfc	2
+红网	xamq	2
+脱敏	eutx	2
+风控	mqrp	2
+投顾	rmdb	2
+大模型	dsga	2

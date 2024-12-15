@@ -3,12 +3,14 @@
 #本方案匹配词库解码顺序为：全拼拼音；墨奇;鹤形;自然码;简单鹤;仓颉首末;虎码首末;五笔前2
 #############DIY你想要的方案组合,试试搭配一个自然码+墨奇辅助的方案吧！###########################
 set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
-  __include: algebra_zrm  #可选解码规则有   algebra_pinyin, algebra_zrm, algebra_flypy,  algebra_ziguang, algebra_sogou, algebra_mspy, algebra_abc  选择一个填入
+  __include: algebra_flypy  #可选解码规则有   algebra_pinyin, algebra_zrm, algebra_flypy,  algebra_ziguang, algebra_sogou, algebra_mspy, algebra_abc  选择一个填入
 set_algebra_fuzhu:        #配置此项就是选择什么辅助码
-  __include: fuzhu_zrm    #可选辅助码有：fuzhu_kong，fuzhu_moqi, fuzhu_zrm, fuzhu_flypy, fuzhu_tiger, fuzhu_cj, fuzhu_wubi, fuzhu_jdh, fuzhu_hanxin 选择一个填入
+  __include: fuzhu_wubi    #可选辅助码有：fuzhu_kong，fuzhu_moqi, fuzhu_zrm, fuzhu_flypy, fuzhu_tiger, fuzhu_cj, fuzhu_wubi, fuzhu_jdh, fuzhu_hanxin 选择一个填入
 pro_comment_format:           # 超级注释模块，子项配置 true 开启，false 关闭
+  fuzhu_code: true                    # 启用辅助码提醒，用于辅助输入练习辅助码，成熟后可关闭
   candidate_length: 1         # 候选词辅助码提醒的生效长度，0为关闭  但同时清空其它，应当使用上面开关来处理    
-  fuzhu_type: zrm             # 用于匹配对应的辅助码注释显示，基于默认词典的可选注释类型有：( moqi, flypy, zrm, jdh, cj, tiger, wubi, hanxin) tone (这个参数特殊，在注释里显示声调，不算辅助码，也填入此处)选择一个填入，之所以单独列出是因为这里有更多的可配置性，而真正的辅助码默认只有8种
+  fuzhu_type: wubi             # 用于匹配对应的辅助码注释显示，基于默认词典的可选注释类型有：( moqi, flypy, zrm, jdh, cj, tiger, wubi, hanxin) tone (这个参数特殊，在注释里显示声调，不算辅助码，也填入此处)选择一个填入，之所以单独列出是因为这里有更多的可配置性，而真正的辅助码默认只有8种
+  corrector: true                     # 启用错音错词提醒，例如输入 geiyu 给予 获得 jiyu 提示
   corrector_type: "{comment}"  # 换一种显示类型，比如"({comment})" 
 ########################以下是方案配置######################################################
 
@@ -356,6 +358,7 @@ key_binder:
     - { when: composing, accept: Control+w, send: Control+BackSpace }
 #分号用于次选
     - { when: has_menu, accept: semicolon, send: 2 }
+    - { when: has_menu, accept: apostrophe, send: 3 }
 #使用Control+e进入翻译模式
     - { when: has_menu, accept: "Control+e", toggle: chinese_english}
 #使用快捷键Control+m/z分别开启和关闭墨奇或自然码辅助码拆分显示
