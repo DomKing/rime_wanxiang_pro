@@ -1023,6 +1023,10 @@ app_options:
     ascii_mode: true
   com.alfredapp.Alfred:
     ascii_mode: true
+  com.runningwithcrayons.Alfred:
+    ascii_mode: true
+  com.jetbrains.intellij:
+    ascii_mode: true
   com.runningwithcrayons.Alfred-2:
     ascii_mode: true
   com.blacktree.Quicksilver:
@@ -1039,21 +1043,9 @@ app_options:
     vim_mode: true    # 退出VIM插入模式自動切換輸入法狀態
   com.apple.dt.Xcode:
     ascii_mode: true
-  com.barebones.textwrangler:
-    ascii_mode: true
-  com.macromates.TextMate.preview:
-    ascii_mode: true
-  com.github.atom:
-    ascii_mode: true
   com.microsoft.VSCode:
     ascii_mode: true
   com.sublimetext.2:
-    ascii_mode: true
-  org.gnu.Aquamacs:
-    ascii_mode: true
-  org.gnu.Emacs:
-    ascii_mode: true
-  co.zeit.hyper:
     ascii_mode: true
   com.google.Chrome:
     # 規避 https://github.com/rime/squirrel/issues/435
